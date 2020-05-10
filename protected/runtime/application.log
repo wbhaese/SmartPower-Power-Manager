@@ -1,0 +1,1124 @@
+2020/05/10 17:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/page?view=about
+---
+2020/05/10 17:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/contact
+---
+2020/05/10 17:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/image...')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/gii/model/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/smart/index.php/gii/model/index
+---
+2020/05/10 18:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios
+---
+2020/05/10 18:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexUsuarios".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('indexUsuarios')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('indexUsuarios')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/indexU...')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/indexUsuarios
+---
+2020/05/10 18:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index2".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/index2')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/index2
+---
+2020/05/10 18:21:10 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(128): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionIndex()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/index
+in C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (128)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 18:21:19 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(128): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionIndex()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios
+in C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (128)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 18:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "usuarios".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('usuarios')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('usuarios')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/usuarios')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/usuarios
+---
+2020/05/10 18:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "usuarios".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('usuarios')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('usuarios')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/usuarios')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/usuarios
+---
+2020/05/10 18:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/admin
+---
+2020/05/10 18:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index2".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('index2')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('index2')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/index2')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/index2
+---
+2020/05/10 18:23:13 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(128): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionIndex()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios
+in C:\xampp3\htdocs\smart\protected\views\usuarios\index2.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (128)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 19:15:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/smart/index.php/usuarios/view
+---
+2020/05/10 19:16:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:17:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:18:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:20:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:25:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_view".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('_view')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('_view')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/_view')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/_view
+---
+2020/05/10 19:40:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:41:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:41:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:42:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:42:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:44:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:44:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view2".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('view2')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view2')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view2')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/view2
+---
+2020/05/10 19:45:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:46:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:47:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:47:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:48:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:48:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:48:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:49:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/10 19:49:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/10 19:54:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/new
+---
+2020/05/10 19:54:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/10 19:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/new
+---
+2020/05/10 19:55:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 19:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/new
+---
+2020/05/10 19:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/index
+---
+2020/05/10 20:01:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 20:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/new
+---
+2020/05/10 20:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios
+---
+2020/05/10 20:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:11:55 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\new.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(148): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionAdmin()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/admin
+in C:\xampp3\htdocs\smart\protected\views\usuarios\new.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (148)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 20:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/index
+---
+2020/05/10 20:12:05 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\new.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(148): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionAdmin()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/admin
+in C:\xampp3\htdocs\smart\protected\views\usuarios\new.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (148)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 20:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/10 20:12:10 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\new.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(148): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionAdmin()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/admin
+in C:\xampp3\htdocs\smart\protected\views\usuarios\new.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (148)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 20:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:21:50 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\new.php:2)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(150): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionAdmin()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/admin
+in C:\xampp3\htdocs\smart\protected\views\usuarios\new.php (2)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (150)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/10 20:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/admin
+---
+2020/05/10 20:22:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 20:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/new
+---
+2020/05/10 20:26:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 20:27:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+---
+2020/05/10 20:27:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('new')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/new')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/new
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/10 20:43:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "icone.svg".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('icone.svg')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/icone.svg
+HTTP_REFERER=http://localhost/smart/index.php/base
+---
+2020/05/10 20:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "process/p_logar.php".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('process/p_logar...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/process/p_logar.php
+HTTP_REFERER=http://localhost/smart/index.php/base
+---
+2020/05/10 20:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "process/p_logar.php".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('process/p_logar...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/process/p_logar.php
+HTTP_REFERER=http://localhost/smart/index.php/base
+---
+2020/05/10 20:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "p_logar.php".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('p_logar.php')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/p_logar.php
+HTTP_REFERER=http://localhost/smart/index.php/base?cpf=admin&senha=admin
+---
+2020/05/10 21:03:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('validar')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/valida...')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/validar
+---
+2020/05/10 21:04:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('validar')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/valida...')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/validar
+---
+2020/05/10 21:05:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('validar')
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/valida...')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/smart/index.php/usuarios/validar
+HTTP_REFERER=http://localhost/smart/index.php/base?cpf=admin&senha=admin
+---
+2020/05/10 21:07:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/smart/index.php/usuarios/view
+HTTP_REFERER=http://localhost/smart/index.php/base?cpf=admin&senha=admin
+---
