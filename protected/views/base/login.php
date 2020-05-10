@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -50,50 +47,37 @@ session_start();
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="<?= Yii::app()->baseUrl.'/themes/bootstrap3/vendors/datatables/jquery.dataTables.min.js'; ?>"></script>
-  <script src="<?= Yii::app()->baseUrl.'/themes/bootstrap3/vendors/datatables/dataTables.bootstrap.min.js'; ?>"></script>
-  <script src="<?= Yii::app()->baseUrl.'/js/sweetalert2/sweetalert2.all.min.js'; ?>"></script>
-  <script src="<?= Yii::app()->baseUrl.'/js/moment.js'; ?>"></script>
+  <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
   
   <script>
     $('#login').one('click', function(e) {
-
       e.preventDefault();
+
+      // Swal.fire({
+      //   title: 'Por favor aguarde',
+      //   allowEscapeKey: false,
+      //   allowOutsideClick: false,
+      //   onBeforeOpen: () => {
+      //       Swal.showLoading()
+      //   }
+      // });
 
       $.ajax({
           type: 'GET',
-          url: "<?= $this->createUrl('/base/validar') ?>",
+          url: "<?= $this->createUrl('/usuarios/buscarUsuario') ?>",
           async: false,
-          success: function(response) {
-              console.log('response', response);
+          // success: function(response) {
+          //     console.log('response', response);
               
-          },
-          error: function(response) {
-            console.log('response', response);
+          // },
+          // error: function(response) {
+          //   console.log('response', response);
               
-          }
+          // }
       });
     
     });
 
-    function login() {
-
-      console.log("<?= $this->createUrl('/usuarios/validar') ?>")
-
-      $.ajax({
-          type: 'GET',
-          url: "<?= $this->createUrl('/base/validar') ?>",
-          async: false,
-          success: function(response) {
-              console.log('response', response);
-              
-          },
-          error: function(response) {
-            console.log('response', response);
-              
-          }
-      });
-    }
   </script>
 
 </body>

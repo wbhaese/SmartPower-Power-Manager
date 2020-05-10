@@ -40,7 +40,7 @@ class UsuariosController extends Controller
 				'users'=>array('*'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array('?'),
 			),
 		);
 	}
@@ -59,6 +59,64 @@ class UsuariosController extends Controller
 	public function actionValidar(){
 		echo "validar";
 	}
+
+	public function actionSalas()
+	{
+		$this->renderPartial('salasNew');
+	}
+
+	public function actionBuscarUsuario()
+    {
+
+		$this->renderPartial('salasNew');
+		// $this->redirect(array('usuarios/salas'));
+		// var_dump($this->createUrl('base/salasNew'));die;
+		// $this->redirect($this->createUrl('base/salas'));
+
+
+        // $dadosCliente = explode(' >> ', $cliente = $this->getParam('dadosCliente'));
+        // $numContrato = trim($dadosCliente[0]);
+		// $cpfCnpj = trim($dadosCliente[1]);
+
+		// $model=new Usuarios;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		// $this->redirect(array('view','id'=>$model->id));
+
+		// if(isset($_POST['Usuarios']))
+		// {
+		// 	$model->attributes=$_POST['Usuarios'];
+		// 	if($model->save())
+		// 		$this->redirect(array('view','id'=>$model->id));
+		// }
+
+		// $this->render('create',array(
+		// 	'model'=>$model,
+		// ));
+	
+		
+		$clienteModel = Usuarios::model()->getUsuario();
+
+		// echo json_encode($clienteModel['nome']);
+		// echo json_encode($this->createUrl('usuarios/salas'));
+		// return true;
+
+
+        // if ($dadosCliente) {
+        //     $service = new NovaPropostaServiceClient();
+        //     $dadosDBCliente = explode(',"', json_encode($service->getClient($numContrato, $cpfCnpj)));
+        //     if ($dadosDBCliente[0] == '{"nome":null'){
+        //         throw new exception("Por favor digite um número de contrato ou CPF/CNPJ válido.");
+        //     }
+        //     echo json_encode($service->getClient($numContrato, $cpfCnpj));
+        // } else {
+        //     throw new exception("Por favor digite um número de contrato ou CPF/CNPJ válido.");
+        // }
+	}
+	
+
 	
 	/**
 	 * Creates a new model.

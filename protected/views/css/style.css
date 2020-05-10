@@ -1,0 +1,34 @@
+.botaoCriar {
+    border-radius: 20px;
+    background-color: #42d653;
+    margin-left: 20px;
+}
+
+.itemCard {
+    background-color: #9eb8bc;
+}
+
+/* .iconEstado {
+    background-color: red;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    float: right;
+    margin-top: 9px;
+    cursor: default;
+    animation: onOff 5s infinite;
+}
+
+@keyframes onOff{
+    0%{background-color:green;}
+    50%{background-color: red;}
+    100%{background-color: green;}
+} */
+
+.temperatura{
+    float: right;
+}
+
+.divisorLista{
+    text-align: center;
+}

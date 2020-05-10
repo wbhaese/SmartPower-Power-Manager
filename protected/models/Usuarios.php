@@ -93,15 +93,26 @@ class Usuarios extends CActiveRecord
 		$criteria->compare('nome',$this->nome,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('senha',$this->senha,true);
-		$criteria->compare('situacoe_id',$this->situacoe_id);
-		$criteria->compare('niveis_acesso_id',$this->niveis_acesso_id);
-		$criteria->compare('created',$this->created,true);
-		$criteria->compare('modified',$this->modified,true);
+		// $criteria->compare('situacoe_id',$this->situacoe_id);
+		// $criteria->compare('niveis_acesso_id',$this->niveis_acesso_id);
+		// $criteria->compare('created',$this->created,true);
+		// $criteria->compare('modified',$this->modified,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function getUsuario() {
+
+        $found = $this->findByAttributes(
+                array(),
+                //$condition  = 'CPF=:varCpf OR CGC=:varCgc OR CGF=:varCgf',
+                $condition = 'Id=:Id', $params = array('Id' => 13)
+        );
+
+        return $found;
+    }
 
 	/**
 	 * Returns the static model of the specified AR class.

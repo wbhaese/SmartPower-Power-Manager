@@ -1,10 +1,13 @@
 <?php
+// include_once 'localhost/smart/protected/views/base/salasNew.php';
 
 class BaseController extends Controller
 {
 	public function actionValidar()
 	{
-		echo "Validar";
+		$id = 'email';
+		$teste = \Usuarios::search();
+		echo $teste;
 	}
 
 	public function action2()
@@ -29,7 +32,7 @@ class BaseController extends Controller
 
 	public function actionSalas()
 	{
-		$this->render('salas');
+		$this->renderPartial('salasNew');
 	}
 
 	// Uncomment the following methods and override them if needed
