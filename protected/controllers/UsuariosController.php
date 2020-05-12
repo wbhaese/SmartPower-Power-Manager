@@ -29,15 +29,15 @@ class UsuariosController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('?'),
@@ -98,7 +98,9 @@ class UsuariosController extends Controller
 		if($clienteModel['nome'] == $nome){
 			if($clienteModel['senha'] == $senha){
 				// echo ('localhost' . $this->createUrl('usuarios/salas'));				
-				echo ('usuarios/salas');				
+				echo ('base/salas');
+				// return $this->redirect(['base/salas']);//erro: retorna o html para o front e não redireciona
+
 			}
 		}else{
 			throw new Exception('Usuário ou senhas inválidos');

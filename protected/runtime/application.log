@@ -2913,3 +2913,554 @@ REQUEST_URI=/smart/index.php/usuarios/salas
 in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
 in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
 in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 02:24:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente.
+' in C:\xampp3\htdocs\yii-1.1.16\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\db\ar\CActiveRecord.php(1522): CActiveRecord->getTableAlias(true)
+#7 C:\xampp3\htdocs\smart\protected\models\Usuarios.php(111): CActiveRecord->findByAttributes(Array, 'Nome=:Nome', Array)
+#8 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(94): Usuarios->getUsuario('wallace')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#19 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#20 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "icone.svg".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('icone.svg')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/icone.svg
+HTTP_REFERER=http://localhost/smart/index.php/base
+---
+2020/05/12 13:53:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+HTTP_REFERER=http://localhost/smart/index.php/base
+---
+2020/05/12 13:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/12 13:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('site/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/site/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/site/login
+---
+2020/05/12 13:53:44 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(67): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionSalas()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/salas
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:53:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/salas
+---
+2020/05/12 13:54:11 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(67): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionSalas()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/salas
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:54:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/salas
+---
+2020/05/12 13:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:55:10 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(67): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionSalas()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/salas
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/salas
+---
+2020/05/12 13:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:55:48 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(67): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionSalas()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/salas
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/usuarios/salas
+---
+2020/05/12 13:55:54 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(102): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (102)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:55:58 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(102): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (102)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:56:19 [error] [exception.CException] exception 'CException' with message 'UsuariosController cannot find the requested view "base/salasNew".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): CController->renderPartial('base/salasNew', NULL, true)
+#1 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(102): CController->render('base/salasNew')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:56:31 [error] [exception.CException] exception 'CException' with message 'UsuariosController cannot find the requested view "base/salas".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): CController->renderPartial('base/salas', NULL, true)
+#1 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(102): CController->render('base/salas')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace-123
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:58:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/view')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/smart/index.php/usuarios/view
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "salasNew".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('salasNew')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('salasNew')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/salasN...')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/salasNew
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:58:54 [error] [php] A session had already been started - ignoring session_start() (C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php:1)
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CBaseController.php(95): UsuariosController->renderInternal()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(869): UsuariosController->renderFile()
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(782): UsuariosController->renderPartial()
+#3 C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php(67): UsuariosController->render()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionSalas()
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): UsuariosController->runAction()
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): UsuariosController->filterAccessControl()
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): UsuariosController->runActionWithFilters()
+#13 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): UsuariosController->run()
+#14 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp3\htdocs\smart\index.php(13): CWebApplication->run()
+REQUEST_URI=/smart/index.php/usuarios/salas
+in C:\xampp3\htdocs\smart\protected\views\usuarios\salasNew.php (1)
+in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php (67)
+in C:\xampp3\htdocs\smart\index.php (13)
+2020/05/12 13:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:59:21 [error] [exception.Exception] exception 'Exception' with message 'Usuário ou senhas inválidos' in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php:104
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace1-123
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 13:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 13:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:00:04 [error] [exception.Exception] exception 'Exception' with message 'Usuário ou senhas inválidos' in C:\xampp3\htdocs\smart\protected\controllers\UsuariosController.php:104
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\actions\CInlineAction.php(49): UsuariosController->actionBuscarUsuario()
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\xampp3\htdocs\yii-1.1.16\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('buscarUsuario')
+#10 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/buscar...')
+#11 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/smart/index.php/usuarios/buscarUsuario?userData=wallace1-123
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
+2020/05/12 14:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logout.php".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('logout.php')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('logout.php')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('base/logout.php')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/base/logout.php
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bg.gif".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('bg.gif')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('bg.gif')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('base/bg.gif')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/base/bg.gif
+HTTP_REFERER=http://localhost/smart/index.php/base/logout.php
+---
+2020/05/12 14:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/css/style.css
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/functions.js".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('js/functions.js')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/smart/index.php/js/functions.js
+HTTP_REFERER=http://localhost/smart/index.php/base/salas
+---
+2020/05/12 14:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "base".' in C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp3\htdocs\yii-1.1.16\framework\web\CController.php(270): CController->missingAction('base')
+#1 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(282): CController->run('base')
+#2 C:\xampp3\htdocs\yii-1.1.16\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/base/s...')
+#3 C:\xampp3\htdocs\yii-1.1.16\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp3\htdocs\smart\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/smart/index.php/usuarios/base/salas
+HTTP_REFERER=http://localhost/smart/index.php/base?nome=wallace&senha=123
+---
