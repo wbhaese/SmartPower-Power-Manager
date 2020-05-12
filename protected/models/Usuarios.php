@@ -39,7 +39,7 @@ class Usuarios extends CActiveRecord
 			array('modified', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nome, email, senha, situacoe_id, niveis_acesso_id, created, modified', 'safe', 'on'=>'search'),
+			array('id, nome, email, senha, situacoe_id, niveis_acesso_id, created, modified, nascimento', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -103,12 +103,11 @@ class Usuarios extends CActiveRecord
 		));
 	}
 
-	public function getUsuario() {
+	public function getUsuario($nome) {
 
         $found = $this->findByAttributes(
                 array(),
-                //$condition  = 'CPF=:varCpf OR CGC=:varCgc OR CGF=:varCgf',
-                $condition = 'Id=:Id', $params = array('Id' => 13)
+				$condition = 'Nome=:Nome', $params = array('Nome' => $nome)			
         );
 
         return $found;

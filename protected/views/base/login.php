@@ -21,11 +21,12 @@
     <form class="form-signin" style="background-color: white; box-shadow: 1px 1px 100px gray;">
       <img class="mb-4" src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="Logo Login" width="72" height="72">
       <h4 class="mb-3">Acesso Virtual</h4>
-      <label for="cpf" class="sr-only">CPF</label>
-      <input type="text" name="cpf" id="inputCpf" class="mb-2 form-control" placeholder="CPF" maxlength="14"  style="background-color: #ececec;" required autofocus>
+      <label for="" class="sr-only">nome</label>
+      <input type="text" name="nome" id="nome" class="mb-2 form-control" placeholder="Nome" maxlength="14"  style="background-color: #ececec;" required autofocus>
       <label for="senha" class="sr-only">Senha</label>
       <input type="password" name="senha" id="inputSenha" class="mb-2 form-control" placeholder="Senha" maxlength="8" style="background-color: #ececec;" required>
       <button class="btn btn-lg btn-danger btn-block" type="submit" id="login">Acessar</button>
+      <p id="error" style="color:red" ></p>
     </form>
     <p class="text-center text-danger">
       <?php if (isset($_SESSION['loginErro'])) {
@@ -52,8 +53,31 @@
   <script>
     $('#login').one('click', function(e) {
       e.preventDefault();
+      // debugger;
+    
+      let nome = $('#nome').val();
+      let senha = $('#inputSenha').val();     
 
-      // Swal.fire({
+      $.ajax({
+          type: 'GET',
+          url: "<?= $this->createUrl('/usuarios/buscarUsuario') ?>",
+          data: { 'userData' : nome.toLowerCase() + '-' + senha.toLowerCase() }, 
+          async: false,
+          success: function(response) {
+              console.log('response', response);
+              window.location.href = response;
+              
+          },
+          error: function(response) {
+            console.log('response', response);
+            $('#error').text('Usuário ou senha inválidos');
+              
+          }
+      });
+    
+    });
+
+    // Swal.fire({
       //   title: 'Por favor aguarde',
       //   allowEscapeKey: false,
       //   allowOutsideClick: false,
@@ -61,22 +85,6 @@
       //       Swal.showLoading()
       //   }
       // });
-
-      $.ajax({
-          type: 'GET',
-          url: "<?= $this->createUrl('/usuarios/buscarUsuario') ?>",
-          async: false,
-          // success: function(response) {
-          //     console.log('response', response);
-              
-          // },
-          // error: function(response) {
-          //   console.log('response', response);
-              
-          // }
-      });
-    
-    });
 
   </script>
 

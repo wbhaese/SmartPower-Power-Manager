@@ -33,6 +33,8 @@ class BaseController extends Controller
 	public function actionSalas()
 	{
 		$this->renderPartial('salasNew');
+		// $this->render('2');
+
 	}
 
 	// Uncomment the following methods and override them if needed

@@ -62,46 +62,52 @@ class UsuariosController extends Controller
 
 	public function actionSalas()
 	{
-		$this->renderPartial('salasNew');
+		// $this->renderPartial('salasNew');
+		// $this->redirect($this->createUrl('base/salas'));
+		return $this->render('salasNew');
+
+
 	}
 
 	public function actionBuscarUsuario()
     {
 
-		$this->renderPartial('salasNew');
-		// $this->redirect(array('usuarios/salas'));
-		// var_dump($this->createUrl('base/salasNew'));die;
-		// $this->redirect($this->createUrl('base/salas'));
+		// $this->renderPartial('salasNew');
+		// $clienteModel = Usuarios::model()->getUsuario();
 
 
-        // $dadosCliente = explode(' >> ', $cliente = $this->getParam('dadosCliente'));
-        // $numContrato = trim($dadosCliente[0]);
-		// $cpfCnpj = trim($dadosCliente[1]);
-
-		// $model=new Usuarios;
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		// $this->redirect(array('view','id'=>$model->id));
+        // 
 
 		// if(isset($_POST['Usuarios']))
 		// {
 		// 	$model->attributes=$_POST['Usuarios'];
 		// 	if($model->save())
-		// 		$this->redirect(array('view','id'=>$model->id));
+				// $this->redirect(array('view','id'=>$model->id));
 		// }
 
-		// $this->render('create',array(
-		// 	'model'=>$model,
-		// ));
-	
-		
-		$clienteModel = Usuarios::model()->getUsuario();
+		$userData = \Yii::app()->request->getParam('userData');
+
+		$dadosCliente = explode('-', $userData);
+        $nome = trim($dadosCliente[0]);
+		$senha = trim($dadosCliente[1]);
+
+		$clienteModel = Usuarios::model()->getUsuario($nome);
+		// var_dump($clienteModel);die;
+
+
+		if($clienteModel['nome'] == $nome){
+			if($clienteModel['senha'] == $senha){
+				// echo ('localhost' . $this->createUrl('usuarios/salas'));				
+				echo ('usuarios/salas');				
+			}
+		}else{
+			throw new Exception('Usuário ou senhas inválidos');
+		}
+
+		// var_dump($clienteModel['nome']);die;
 
 		// echo json_encode($clienteModel['nome']);
-		// echo json_encode($this->createUrl('usuarios/salas'));
-		// return true;
+		return true;
 
 
         // if ($dadosCliente) {
