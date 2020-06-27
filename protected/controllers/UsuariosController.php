@@ -65,17 +65,32 @@ class UsuariosController extends Controller
 		// $this->renderPartial('salasNew');
 		// $this->redirect($this->createUrl('base/salas'));
 		return $this->render('salasNew');
-
-
 	}
 
-	public function actionBuscarUsuario()
+	public function actionCadastrarUser()
+	{
+		$registerData = \Yii::app()->request->getParam('registerData');
+
+		$dadosCliente = explode('-', $registerData);
+
+		$model = new Usuarios();
+
+		$model->email =trim($dadosCliente[0]);
+		$model->nome = trim($dadosCliente[1]);
+		$model->senha = trim($dadosCliente[2]);
+
+		if($model->save()){
+			echo ($this->createUrl('base/index'));
+			return true;
+		}else{
+			throw new Exception('Ocorreu um erro ao salvar os dados.');
+
+		}
+	}
+
+
+	public function actionBuscarUsuario()//busca name e senha
     {
-
-		// $this->redirect(array('view','id'=>$model->id));
-		// }
-		
-
 		$userData = \Yii::app()->request->getParam('userData');
 
 		$dadosCliente = explode('-', $userData);
@@ -89,30 +104,16 @@ class UsuariosController extends Controller
 		if($clienteModel['nome'] == $nome){
 			if($clienteModel['senha'] == $senha){
 				// echo ('localhost' . $this->createUrl('usuarios/salas'));				
-				echo ('base/salas');
-				// return $this->redirect(['base/salas']);//erro: retorna o html para o front e não redireciona
+				// echo ('base/salas');
+				echo ($this->createUrl('base/salas'));
+				// $this->redirect($this->createUrl('/base/salas'), true);//erro: retorna o html para o front e não redireciona
+				// $this->redirect(['/base/salas']);
 
 			}
 		}else{
 			throw new Exception('Usuário ou senhas inválidos');
 		}
-
-		// var_dump($clienteModel['nome']);die;
-
-		// echo json_encode($clienteModel['nome']);
 		return true;
-
-
-        // if ($dadosCliente) {
-        //     $service = new NovaPropostaServiceClient();
-        //     $dadosDBCliente = explode(',"', json_encode($service->getClient($numContrato, $cpfCnpj)));
-        //     if ($dadosDBCliente[0] == '{"nome":null'){
-        //         throw new exception("Por favor digite um número de contrato ou CPF/CNPJ válido.");
-        //     }
-        //     echo json_encode($service->getClient($numContrato, $cpfCnpj));
-        // } else {
-        //     throw new exception("Por favor digite um número de contrato ou CPF/CNPJ válido.");
-        // }
 	}
 	
 

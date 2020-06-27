@@ -9,24 +9,24 @@
   <link rel="icon" href="icone.svg">
 
   <title>Smart Energy - Login</title>
-
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
-  <!-- <script src="js/ie-emulation-modes-warning.js"></script> -->
 </head>
 
 <body>
   <div class="container text-center">
     <form class="form-signin" style="background-color: white; box-shadow: 1px 1px 100px gray;">
-      <img class="mb-4" src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="Logo Login" width="72" height="72">
-      <h4 class="mb-3">Acesso Virtual</h4>
-      <label for="" class="sr-only">nome</label>
+      <img class="mb-4" src="https://image.flaticon.com/icons/svg/702/702814.svg" alt="Logo Login" width="72" height="72">
+      <h4 class="mb-3">Acesso Virtual - SmartPower</h4>
+
+      <p class="text-left" for="exampleInputEmail1">Nome de Usuário</p>
       <input type="text" name="nome" id="nome" class="mb-2 form-control" placeholder="Nome" maxlength="14"  style="background-color: #ececec;" required autofocus>
-      <label for="senha" class="sr-only">Senha</label>
+
+      <p class="text-left" for="exampleInputEmail1">Senha</p>
       <input type="password" name="senha" id="inputSenha" class="mb-2 form-control" placeholder="Senha" maxlength="8" style="background-color: #ececec;" required>
+      
       <button class="btn btn-lg btn-danger btn-block" type="submit" id="login">Acessar</button>
-      <p id="error" style="color:red" ></p>
+      <!-- <label class="form-check-label" for="exampleCheck1">Lembrar senha</label> -->
+      <h6 class="mb-3" id="cadastrarUser" style="margin-top:20px"><a href="<?= $this->createUrl('/base/cadastrar') ?>">Cadastrar usuário</a></h6>
+      <h6 class="mb-3"  id="error" style="color:red; margin-top:20px" ></h6>
     </form>
     <p class="text-center text-danger">
       <?php if (isset($_SESSION['loginErro'])) {

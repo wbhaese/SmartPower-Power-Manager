@@ -31,7 +31,7 @@ class Usuarios extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nome, email, senha, niveis_acesso_id, created', 'required'),
+			array('nome, email, senha', 'required'),
 			array('situacoe_id, niveis_acesso_id', 'numerical', 'integerOnly'=>true),
 			array('nome', 'length', 'max'=>220),
 			array('email', 'length', 'max'=>520),

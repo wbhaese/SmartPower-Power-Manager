@@ -10,28 +10,21 @@ class BaseController extends Controller
 		echo $teste;
 	}
 
-	public function action2()
-	{
-		$this->render('2');
-	}
-
-	public function action3()
-	{
-		$this->render('3');
-	}
-
-	public function action4()
-	{
-		$this->render('4');
-	}
-
 	public function actionIndex()
 	{
+		//renderiza tela de login
 		$this->renderPartial('login');
+	}
+
+	public function actionCadastrar()
+	{
+		//renderiza tela de login
+		$this->renderPartial('cadastrar');
 	}
 
 	public function actionSalas()
 	{
+		// renderiza tela de gerenciamento
 		$this->renderPartial('salasNew');
 		// $this->render('2');
 
