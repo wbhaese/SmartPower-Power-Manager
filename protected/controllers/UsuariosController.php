@@ -72,18 +72,9 @@ class UsuariosController extends Controller
 	public function actionBuscarUsuario()
     {
 
-		// $this->renderPartial('salasNew');
-		// $clienteModel = Usuarios::model()->getUsuario();
-
-
-        // 
-
-		// if(isset($_POST['Usuarios']))
-		// {
-		// 	$model->attributes=$_POST['Usuarios'];
-		// 	if($model->save())
-				// $this->redirect(array('view','id'=>$model->id));
+		// $this->redirect(array('view','id'=>$model->id));
 		// }
+		
 
 		$userData = \Yii::app()->request->getParam('userData');
 

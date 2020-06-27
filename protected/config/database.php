@@ -8,7 +8,7 @@ return array(
 	'connectionString' => 'mysql:host=localhost;dbname=smartpower',
 	'emulatePrepare' => true,
 	'username' => 'root',
-	'password' => 'senha123',
+	'password' => '',
 	'charset' => 'utf8',
 	
 );

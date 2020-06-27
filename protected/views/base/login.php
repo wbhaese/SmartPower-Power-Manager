@@ -51,7 +51,7 @@
   <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
   
   <script>
-    $('#login').one('click', function(e) {
+    $('#login').on('click', function(e) {
       e.preventDefault();
       // debugger;
     

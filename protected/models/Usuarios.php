@@ -105,7 +105,9 @@ class Usuarios extends CActiveRecord
 
 	public function getUsuario($nome) {
 
-        $found = $this->findByAttributes(
+		//$model = $this->findByAttributes(['id' => $id]);
+
+		$found = $this->findByAttributes(
                 array(),
 				$condition = 'Nome=:Nome', $params = array('Nome' => $nome)			
         );
