@@ -1,4 +1,4 @@
-# smartEnergy---PHP-and-JS
+# SmartPower / Power-Manager
 Software for eletricity power manager for schools and colleges
 
 ![Preview](https://github.com/wbhaese/smartEnergy---PHP-and-JS/blob/master/20200627_153420.gif)
